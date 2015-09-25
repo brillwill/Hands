@@ -13,6 +13,11 @@
 		843A69671BB1458D00051FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A69651BB1458D00051FD1 /* Main.storyboard */; };
 		843A69691BB1458D00051FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843A69681BB1458D00051FD1 /* Assets.xcassets */; };
 		843A696C1BB1458D00051FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A696A1BB1458D00051FD1 /* LaunchScreen.storyboard */; };
+		843A69741BB1474200051FD1 /* JobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A69731BB1474200051FD1 /* JobManager.swift */; settings = {ASSET_TAGS = (); }; };
+		843A69761BB149D000051FD1 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A69751BB149D000051FD1 /* Job.swift */; settings = {ASSET_TAGS = (); }; };
+		843A697C1BB268E800051FD1 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A697B1BB268E800051FD1 /* MediaItem.swift */; settings = {ASSET_TAGS = (); }; };
+		843A697E1BB26B5700051FD1 /* TestStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A697D1BB26B5700051FD1 /* TestStub.swift */; settings = {ASSET_TAGS = (); }; };
+		843A69801BB276AD00051FD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A697F1BB276AD00051FD1 /* User.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		843A69681BB1458D00051FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843A696B1BB1458D00051FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843A696D1BB1458D00051FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843A69731BB1474200051FD1 /* JobManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobManager.swift; sourceTree = "<group>"; };
+		843A69751BB149D000051FD1 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		843A697B1BB268E800051FD1 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		843A697D1BB26B5700051FD1 /* TestStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStub.swift; sourceTree = "<group>"; };
+		843A697F1BB276AD00051FD1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				843A69681BB1458D00051FD1 /* Assets.xcassets */,
 				843A696A1BB1458D00051FD1 /* LaunchScreen.storyboard */,
 				843A696D1BB1458D00051FD1 /* Info.plist */,
+				843A69731BB1474200051FD1 /* JobManager.swift */,
+				843A69751BB149D000051FD1 /* Job.swift */,
+				843A697B1BB268E800051FD1 /* MediaItem.swift */,
+				843A697D1BB26B5700051FD1 /* TestStub.swift */,
+				843A697F1BB276AD00051FD1 /* User.swift */,
 			);
 			path = Hands;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				843A69641BB1458D00051FD1 /* SecondViewController.swift in Sources */,
+				843A697E1BB26B5700051FD1 /* TestStub.swift in Sources */,
+				843A69741BB1474200051FD1 /* JobManager.swift in Sources */,
 				843A69601BB1458D00051FD1 /* AppDelegate.swift in Sources */,
+				843A69801BB276AD00051FD1 /* User.swift in Sources */,
 				843A69621BB1458D00051FD1 /* FirstViewController.swift in Sources */,
+				843A69761BB149D000051FD1 /* Job.swift in Sources */,
+				843A697C1BB268E800051FD1 /* MediaItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +307,7 @@
 				843A69721BB1458D00051FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

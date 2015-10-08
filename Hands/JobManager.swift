@@ -42,4 +42,8 @@ class JobManager: NSObject {
         return false
     }
     
+    func loadSampleData(){
+        
+    }
+    
 }

@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		843A69601BB1458D00051FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A695F1BB1458D00051FD1 /* AppDelegate.swift */; };
-		843A69621BB1458D00051FD1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A69611BB1458D00051FD1 /* FirstViewController.swift */; };
-		843A69641BB1458D00051FD1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A69631BB1458D00051FD1 /* SecondViewController.swift */; };
+		843A69621BB1458D00051FD1 /* MyJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A69611BB1458D00051FD1 /* MyJobsViewController.swift */; };
+		843A69641BB1458D00051FD1 /* AllJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A69631BB1458D00051FD1 /* AllJobsViewController.swift */; };
 		843A69671BB1458D00051FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A69651BB1458D00051FD1 /* Main.storyboard */; };
 		843A69691BB1458D00051FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843A69681BB1458D00051FD1 /* Assets.xcassets */; };
 		843A696C1BB1458D00051FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A696A1BB1458D00051FD1 /* LaunchScreen.storyboard */; };
@@ -18,13 +18,16 @@
 		843A697C1BB268E800051FD1 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A697B1BB268E800051FD1 /* MediaItem.swift */; settings = {ASSET_TAGS = (); }; };
 		843A697E1BB26B5700051FD1 /* TestStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A697D1BB26B5700051FD1 /* TestStub.swift */; settings = {ASSET_TAGS = (); }; };
 		843A69801BB276AD00051FD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A697F1BB276AD00051FD1 /* User.swift */; settings = {ASSET_TAGS = (); }; };
+		844F0D9B1BB8DBC4007B51EC /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F0D9A1BB8DBC4007B51EC /* ReportViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		844F0D9D1BB8DBD7007B51EC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F0D9C1BB8DBD7007B51EC /* SettingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		844F0D9F1BB91CDC007B51EC /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F0D9E1BB91CDC007B51EC /* LoginDataManager.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		843A695C1BB1458D00051FD1 /* Hands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843A695F1BB1458D00051FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		843A69611BB1458D00051FD1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		843A69631BB1458D00051FD1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		843A69611BB1458D00051FD1 /* MyJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobsViewController.swift; sourceTree = "<group>"; };
+		843A69631BB1458D00051FD1 /* AllJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJobsViewController.swift; sourceTree = "<group>"; };
 		843A69661BB1458D00051FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843A69681BB1458D00051FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843A696B1BB1458D00051FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,9 @@
 		843A697B1BB268E800051FD1 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
 		843A697D1BB26B5700051FD1 /* TestStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStub.swift; sourceTree = "<group>"; };
 		843A697F1BB276AD00051FD1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		844F0D9A1BB8DBC4007B51EC /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		844F0D9C1BB8DBD7007B51EC /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		844F0D9E1BB91CDC007B51EC /* LoginDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				843A695F1BB1458D00051FD1 /* AppDelegate.swift */,
-				843A69611BB1458D00051FD1 /* FirstViewController.swift */,
-				843A69631BB1458D00051FD1 /* SecondViewController.swift */,
+				843A69611BB1458D00051FD1 /* MyJobsViewController.swift */,
+				843A69631BB1458D00051FD1 /* AllJobsViewController.swift */,
+				844F0D9A1BB8DBC4007B51EC /* ReportViewController.swift */,
+				844F0D9C1BB8DBD7007B51EC /* SettingViewController.swift */,
 				843A69651BB1458D00051FD1 /* Main.storyboard */,
 				843A69681BB1458D00051FD1 /* Assets.xcassets */,
 				843A696A1BB1458D00051FD1 /* LaunchScreen.storyboard */,
@@ -78,6 +86,7 @@
 				843A697B1BB268E800051FD1 /* MediaItem.swift */,
 				843A697D1BB26B5700051FD1 /* TestStub.swift */,
 				843A697F1BB276AD00051FD1 /* User.swift */,
+				844F0D9E1BB91CDC007B51EC /* LoginDataManager.swift */,
 			);
 			path = Hands;
 			sourceTree = "<group>";
@@ -152,12 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843A69641BB1458D00051FD1 /* SecondViewController.swift in Sources */,
+				844F0D9F1BB91CDC007B51EC /* LoginDataManager.swift in Sources */,
+				843A69641BB1458D00051FD1 /* AllJobsViewController.swift in Sources */,
 				843A697E1BB26B5700051FD1 /* TestStub.swift in Sources */,
 				843A69741BB1474200051FD1 /* JobManager.swift in Sources */,
 				843A69601BB1458D00051FD1 /* AppDelegate.swift in Sources */,
 				843A69801BB276AD00051FD1 /* User.swift in Sources */,
-				843A69621BB1458D00051FD1 /* FirstViewController.swift in Sources */,
+				844F0D9D1BB8DBD7007B51EC /* SettingViewController.swift in Sources */,
+				844F0D9B1BB8DBC4007B51EC /* ReportViewController.swift in Sources */,
+				843A69621BB1458D00051FD1 /* MyJobsViewController.swift in Sources */,
 				843A69761BB149D000051FD1 /* Job.swift in Sources */,
 				843A697C1BB268E800051FD1 /* MediaItem.swift in Sources */,
 			);

@@ -32,7 +32,7 @@ class User: NSObject {
 }
 
 class UserFactory {
-    static var sampleUser1 = User(withID: User.uniqueID(), name:"Jim Green", sex: true)
-    static var sampleUser2 = User(withID: User.uniqueID(), name: "MeiMei Han", sex: false)
+    static var samplePlayerA = User(withID: 1, name:"Player A", sex: true)
+    static var samplePlayerB = User(withID: 2, name: "Player B", sex: false)
     
 }

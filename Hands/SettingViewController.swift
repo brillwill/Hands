@@ -10,6 +10,8 @@ import UIKit
 
 class SettingViewController: UITableViewController {
 
+    @IBOutlet weak var loginLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +21,17 @@ class SettingViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let userName = LoginDataManager.defaultManager.currentUser?.name {
+            loginLabel.text = "Current User : " + userName
+        }
+        else {
+            loginLabel.text = "Login"
+        }
     }
     
 

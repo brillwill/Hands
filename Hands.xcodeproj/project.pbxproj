@@ -21,6 +21,7 @@
 		844F0D9B1BB8DBC4007B51EC /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F0D9A1BB8DBC4007B51EC /* ReportViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		844F0D9D1BB8DBD7007B51EC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F0D9C1BB8DBD7007B51EC /* SettingViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		844F0D9F1BB91CDC007B51EC /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F0D9E1BB91CDC007B51EC /* LoginDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		84C6823E1BC75294001287E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6823D1BC75294001287E4 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		844F0D9A1BB8DBC4007B51EC /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		844F0D9C1BB8DBD7007B51EC /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		844F0D9E1BB91CDC007B51EC /* LoginDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
+		84C6823D1BC75294001287E4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				843A69631BB1458D00051FD1 /* AllJobsViewController.swift */,
 				844F0D9A1BB8DBC4007B51EC /* ReportViewController.swift */,
 				844F0D9C1BB8DBD7007B51EC /* SettingViewController.swift */,
+				84C6823D1BC75294001287E4 /* LoginViewController.swift */,
 				843A69651BB1458D00051FD1 /* Main.storyboard */,
 				843A69681BB1458D00051FD1 /* Assets.xcassets */,
 				843A696A1BB1458D00051FD1 /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C6823E1BC75294001287E4 /* LoginViewController.swift in Sources */,
 				844F0D9F1BB91CDC007B51EC /* LoginDataManager.swift in Sources */,
 				843A69641BB1458D00051FD1 /* AllJobsViewController.swift in Sources */,
 				843A697E1BB26B5700051FD1 /* TestStub.swift in Sources */,
